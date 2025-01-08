@@ -39,7 +39,7 @@ body {
 .order-summary {
   max-width: 45rem;
   border-radius: 2rem;
-  background-color: hsl(225, 100%, 98%);
+  background-color: hsl(0, 0%, 100%);
   overflow: hidden;
   margin: 2.4rem;
   box-shadow: 0 4rem 4rem -2rem rgba(56.1, 40.8, 224.4, 0.1518);
@@ -73,7 +73,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(224.4, 232.05, 255, 0.4);
+  background-color: hsl(225, 100%, 98%);
   padding: 2.5rem 2.4rem;
   border-radius: 1.1rem;
   margin-bottom: 3.2rem;
@@ -127,7 +127,7 @@ body {
   padding: 1.5rem;
   border-radius: 1.1rem;
   width: 100%;
-  color: hsl(225, 100%, 98%);
+  color: hsl(0, 0%, 100%);
   background-color: hsl(245, 75%, 52%);
   box-shadow: 0 2rem 2rem 0 rgba(56.1, 40.8, 224.4, 0.1903);
 }
