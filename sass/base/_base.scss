@@ -19,5 +19,17 @@ html {
 
 body {
   font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  color: rgba($color: $Dark-blue, $alpha: 0.8);
   font-size: 1.6rem;
+  background-color: $Pale-blue;
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-position: 0 -17rem;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100dvh;
 }

@@ -1,0 +1,37 @@
+.button {
+  &:link,
+  &:visited {
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-decoration: none;
+  }
+
+  &--primary {
+    padding: 1.5rem;
+    border-radius: 1.1rem;
+    width: 100%;
+    color: $Very-pale-blue;
+    background-color: $Bright-blue;
+    box-shadow: 0 2rem 2rem 0 rgba($color: $Bright-blue, $alpha: 0.1903);
+
+    &:hover {
+      opacity: 0.75;
+    }
+
+    &:active {
+      opacity: 1;
+    }
+  }
+
+  &--outline {
+    color: $Desaturated-blue;
+
+    &:hover {
+      color: $Dark-blue;
+    }
+
+    &:active {
+      color: $Desaturated-blue;
+    }
+  }
+}
